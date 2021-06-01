@@ -33,12 +33,12 @@
   <div class="w3-card w3-flat-green-sea">
     <table>
     <tr><td><strong>ERC20 Token Address</strong></td>
-    <td><input type="text" id="token-address" size="50" value="0xe394fa049559db1166184Ca305F5b6C18F0D20F5"></input></td></tr>
+    <td><input type="text" id="token-address" size="50" value="0xe394fa049559db1166184Ca305F5b6C18F0D20F5"></td></tr>
     
     <tr><td><strong>Event Contract Address</strong></td>
-    <td><input type="text" id="ticket-address" size="50" value="0x8bA6dEf379495Dad124C2fcaeBfC3D887b52D62A"></input></td></tr>
+    <td><input type="text" id="ticket-address" size="50" value="0x8bA6dEf379495Dad124C2fcaeBfC3D887b52D62A"></td></tr>
     <tr><td><strong>Current EOA Address</strong></td>
-      <td><input type="text" id="eoa-address" size="50" value="unknown" readonly></input> Selected at MetaMask</td></tr>
+      <td><input type="text" id="eoa-address" size="50" value="unknown" readonly> Selected at MetaMask</td></tr>
     </table>
     <!--input type="number" id="qty" size="5"></input-->
   </div>
@@ -55,7 +55,7 @@
   </td><td>Transfer funds and Ticket</td></tr>
   <tr><td>
     <div><button id="buyTicketResellerBtn" onclick="buyTicketReseller()" style="width:250px">Buy Ticket from Reseller</button>
-    </td><td><strong>Reseller Address</strong> <input type="text" id="seller-address" size="50"></input></div></td>
+    </td><td><strong>Reseller Address</strong> <input type="text" id="seller-address" size="50"></div></td>
   </td></tr>
   <tr><td>
     <div><button id="sellTicketBtn" onclick="ticketToSell()" style="width:250px">Ticket Available for Sale</button></div>
@@ -110,7 +110,7 @@
   </div>
   <br>
 
-</div>
+
 
 <script>
 
